@@ -7,11 +7,11 @@ import "bootstrap"
 // index.css'
 import '../../styles/index.css'
 
-
 function ToDoList() {
     const [task, setTask] = useState("")
     const [taskListArr, setTaskListArr] = useState([])           //Array que contiene las tareas 
     const [isHovered, setIsHovered] = useState(null);
+
 
     function generateId() {
         let max = 0;
